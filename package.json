@@ -1,0 +1,18 @@
+{
+  "name": "boss-repellent",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.22.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
